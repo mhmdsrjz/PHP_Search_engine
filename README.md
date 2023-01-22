@@ -70,6 +70,7 @@ Since the programming and implementation of this search engine will be in PHP, w
 <div id="dataset">
 <h5>Data Set</h5><br><br>
 The dataset we use here, which is used as an input to the search engine, is the news collection of the BBC website in 5 areas of business, entertainment, economy, sports and technology. Each category contains 350 different news. The figure below shows an example of one of these news. Every news has a title and then the text of the news that the search engine does its work on both the news text and its title.<br>
+
 ![alt text](https://github.com/mhmdsrjz/PHP_Search_engine/blob/main/images/dataset_001.png)
 </div>
 <br>
@@ -79,7 +80,9 @@ The dataset we use here, which is used as an input to the search engine, is the 
 Then put the dataset file named BBC in the C drive. The BBC file contains 5 other folders, each of which has 350 news items. Now we need to connect to the database and create a table in the database with the following specifications. So, open the Navicat software and do the following steps.</p>
 <p>Choose the connection name as you like, set the IP value to localhost, leave the username root and the password blank. Now we are connected to MySQL. Now we need to create a database for our search engine.
 From the opened window, name the database “data_m” and select ok. Then we create a table in the “data_m” database.</p>
+
 ![alt text](https://github.com/mhmdsrjz/PHP_Search_engine/blob/main/images/db_001.png)
+
 <p>According to the figure above, we create three fields for our table. The first field will be the ID of each news, the second field will be the text of the news read from the data file, and finally the third field will be the news text after cleaning and removing the stop words. Then we save the table and name it news.</p>
 </div><br>
 <div id="soft">
